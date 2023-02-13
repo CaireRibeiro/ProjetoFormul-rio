@@ -1,0 +1,30 @@
+* {
+    font-family: Arial;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+body {
+    margin:50px;
+    padding: 17px;
+    background-color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input [type=text] {
+    padding: 10px;
+    width: 500px;
+}
+
+input {
+    
+}
+
+
+
+
+

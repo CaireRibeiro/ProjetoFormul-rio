@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=0" />
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <h1> Área de cadastro </h1>
+    <form action="PastProjForm/areaLogin.html" method="get" class="form">
+
+        <label>
+            Nome Completo: <br/> 
+            <input type="text" name="usuario"/>
+        </label>
+
+        <label>
+            Gmail: <br/>
+            <input type="email" name="gmail"/>
+        </label>
+
+
+        <label>
+            Data de nascimento: <br/>
+            <input type="date" name="nascimento">
+        </label>
+
+        <label>
+            Descrição: <br/>
+            <textarea name="descricao"></textarea>
+        </label>
+
+        <label>
+            Selecione seu estado: <br/>
+            <select name="estados">
+                <option value="1">  </option>
+                <option value="2"> São Paulo </option>
+                <option value="3"> Minas Gerais </option>
+                <option value="4"> Espirito Santo </option>
+                <option value="5"> Rio de Janeiro </option>
+                <option value="6"> Bahia </option>
+            </select>
+        </label>
+
+        <label>
+            <input type="checkbox"/>
+            Eu declaro que li e aceito os <a href="areaLogin.html">termos de privacidade</a>
+        </label>
+
+        <button>Fazer Cadastro </button>
+
+    </form>
+
+</body>
+</html>
